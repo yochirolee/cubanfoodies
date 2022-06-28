@@ -3,8 +3,8 @@ import { ProductsList } from "../components/products/productsList";
 
 export default function Home() {
 	return (
-		<div className="">
-			<Head>
+		<div>
+			<Head className="">
 				<title>Cuban Foodies</title>
 				<meta name="description" content="Created by Yosho" />
 				<link rel="icon" href="/favicon.ico" />
@@ -29,23 +29,24 @@ export default function Home() {
 				</div>
 			</header>
 
-			<main className="m-2 bg-gray-50/50 h-64 rounded-xl shadow-lg  p-4 flex flex-col justify-center items-left ">
-				<h3 className="text-xl  text-left p-2 my-2 font-bold text-slate-600">
+			<main className="bg-img relative   m-4   h-64  rounded-xl shadow-lg   flex flex-col justify-center items-left ">
+				<div className="absolute   bg-gray-800/70  h-64 w-full rounded-xl"></div>
+				<h3 className="text-xl z-10 pl-8   text-left p-2 my-2 font-bold text-red-500">
 					Ist not just Food,<br></br>
-					<span className="text-2xl text-red-400">Its an Cuban Experience</span>
+					<span className="text-2xl z-10 text-white">Its an Cuban Experience</span>
 				</h3>
-				<div className="flex text-sm  flex-row ">
+				<div className="flex text-sm pl-8  flex-row z-20 ">
 					<button className="bg-red-500 border  font-bold px-3 rounded-full text-slate-100">
 						Menu
 					</button>
-					<button className=" mx-4 text-red-500 font-bold  rounded-full p-2 border border-red-500 ">
+					<button className=" mx-4  text-white font-bold  rounded-full p-2 border border-white ">
 						Book a Table
 					</button>
 				</div>
-				<div className="flex flex-row gap-3   place-content-center mt-10">
-					<span className="rounded-full h-2 w-2 ring cursor-pointer  ring-red-200 bg-red-400"></span>
-					<span className="rounded-full h-2 w-2 border cursor-pointer border-red-500"></span>
-					<span className="rounded-full h-2 w-2 border cursor-pointer border-red-500"></span>
+				<div className="flex flex-row gap-3 z-20 rounded-lg bg-gray-600/50   p-2 w-20 mx-auto   place-content-center mt-10">
+					<span className="rounded-full h-2 w-2  cursor-pointer  bg-red-500"></span>
+					<span className="rounded-full h-2 w-2 border cursor-pointer "></span>
+					<span className="rounded-full h-2 w-2 border cursor-pointer"></span>
 				</div>
 			</main>
 
@@ -75,12 +76,18 @@ export default function Home() {
 
 			<ProductsList />
 
-			<section name="contact-section" className="flex container  p-4 m-4 ">
+			<section name="contact-section" className="flex flex-col items-center   p-4 m-4 ">
 				<div>
-					<p>Address Section</p>
-					<p>13855 W hillsborough Ave Tampa, Fl 33635</p>
+					<p className="text-slate-600 items-center flex">
+						<i className="las la-map-marker-alt text-xl mx-2  text-red-500"></i>13855 W hillsborough
+						Ave Tampa, Fl 33635
+					</p>
 				</div>
-				<p></p>
+				<div name="social-medias" className="flex p-4 gap-2 text-3xl">
+					<i className="lab la-facebook text-blue-700"></i>
+					<i className="lab la-instagram text-pink-700"></i>
+					<i className="lab la-twitter text-blue-800"></i>
+				</div>
 			</section>
 
 			<footer></footer>
