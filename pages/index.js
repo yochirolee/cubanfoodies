@@ -81,9 +81,9 @@ export default function Home() {
 			<ProductsList />
 
 			<section name="contact-section" className="flex flex-col items-center   p-4 m-4 ">
-				<h3 className="border-b font-bold text-slate-600">Location and Phone</h3>
+				<h3 className="border-b mb-2 font-bold text-slate-600">Location and Phone</h3>
 				<div>
-					<p className="text-slate-600 items-center flex">
+					<p className="text-slate-600 text-center items-center flex">
 						<i className="las la-map-marker-alt text-xl mx-2  text-red-500"></i>13855 W hillsborough
 						Ave Tampa, Fl 33635
 					</p>
@@ -92,9 +92,9 @@ export default function Home() {
 					</p>
 				</div>
 
-				<div name="hours" className="flex flex-col border  my-4  p-4 rounded-lg shadow-xl">
+				<div name="hours" className="flex flex-col   my-4  p-4">
 					<h3 className="border-b font-bold text-slate-600 text-center mb-2">Opening Hours</h3>
-					<div className="flex items-center border bg-green rounded-lg m-2 p-1">
+					<div className="flex items-center  m-2 p-1">
 						<span className=" text-center text-slate-500 flex-1   ">Mon - Wed - Thur </span>
 
 						<p className="text-green-600">
@@ -102,20 +102,18 @@ export default function Home() {
 						</p>
 					</div>
 					<div className="flex items-center">
-						<span className="border text-center bg-red-500 text-white flex-1 m-2 p-1 rounded-lg ">
-							Tuesday
-						</span>
+						<span className="text-red-500 text-center  flex-1 m-2 p-1 rounded-lg ">Tuesday</span>
 						<p className="text-red-600">
 							<i className="las la-times-circle mx-2"></i>Sorry We Are Close
 						</p>
 					</div>
-					<div className="flex items-center border bg-green rounded-lg m-2 p-1">
+					<div className="flex items-center  m-2 p-1">
 						<span className=" text-center text-slate-500 flex-1   ">Friday - Sat </span>
 						<p className="text-green-600">
 							<i className="las la-clock mx-2"></i>9:00 am - 8:30 pm
 						</p>
 					</div>
-					<div className="flex items-center border bg-green rounded-lg m-2 p-1">
+					<div className="flex items-center  m-2 p-1">
 						<span className=" text-center text-slate-500 flex-1   ">Sunday </span>
 						<p className="text-green-600">
 							<i className="las la-clock mx-2"></i>9:00 am - 6:00 pm
