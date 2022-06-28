@@ -17,7 +17,7 @@ export default function Home() {
 			<header className="flex flex-row  items-center  px-2  h-10    text-slate-500">
 				<i className=" flex-1 fas fa-bars"></i>
 				<div className="flex items-center ">
-					<i class="fas fa-bag-shopping pr-4 text-xl">
+					<i className="fas fa-bag-shopping pr-4 text-xl">
 						<span className="absolute -ml-2 mb-4 w-4  h-4 text-center text-white rounded-full bg-red-500 font-thin text-xs  ">
 							2
 						</span>
