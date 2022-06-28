@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { ProductsList } from "../components/products/productsList";
 
 export default function Home() {
 	return (
@@ -72,62 +73,7 @@ export default function Home() {
 				</div>
 			</div>
 
-			<div className=" flex flex-row overflow-x-scroll  gap-2 mt-4 pt-4 items-center p-2 lg:px-20 ">
-				<div className="card  shadow-md shrink-0  rounded-lg p-4 w-1/3 lg:w-1/6">
-					<div className=" -mt-8">
-						<img alt="beacon" className="object-contain" src="./images/breakfast1.png"></img>
-					</div>
-
-					<div className="flex flex-col  items-center">
-						<span className="mx-auto text-center  text-slate-600 text-sm mb-2">Bacon Eggs</span>
-						<span className="text-center text-xs mb-3 text-slate-500">Eggs - Bacon - Spice</span>
-						<div className="flex gap-4 items-center">
-							<span className="text-xs text-center ring ring-red-300 bg-red-500 text-white p-1 rounded-lg ">
-								19.99 usd
-							</span>
-							<div className="flex relative pt-1">
-								<i className="las la-shopping-cart text-2xl text-red-500 cursor-pointer"></i>
-								<span className="absolute text-center justify-center text-xs h-4 w-4 ml-3    text-white     rounded-full  bg-red-500">
-									0
-								</span>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div className="card  shadow-md shrink-0  rounded-lg p-4 w-1/3 lg:w-1/6">
-					<div className=" -mt-8">
-						<img alt="beacon" className="object-contain" src="./images/breakfast1.png"></img>
-					</div>
-
-					<div className="flex flex-col   items-center">
-						<span className="mx-auto text-center  text-slate-600 text-sm mb-2">Bacon Eggs</span>
-						<span className="text-xs text-center ">$ 19.99</span>
-					</div>
-				</div>
-
-				<div className="card  shadow-md shrink-0  rounded-lg p-4 w-1/3 lg:w-1/6">
-					<div className=" -mt-8">
-						<img alt="beacon" className="object-contain" src="./images/breakfast1.png"></img>
-					</div>
-
-					<div className="flex flex-col   items-center">
-						<span className="mx-auto text-center  text-slate-600 text-sm mb-2">Bacon Eggs</span>
-						<span className="text-xs text-center ">19.99 usd</span>
-					</div>
-				</div>
-
-				<div className="card  shadow-md shrink-0  rounded-lg p-4 w-1/3 lg:w-1/6">
-					<div className=" -mt-8">
-						<img alt="beacon" className="object-contain" src="./images/breakfast1.png"></img>
-					</div>
-
-					<div className="flex flex-col   items-center">
-						<span className="mx-auto text-center  text-slate-600 text-sm mb-2">Bacon Eggs</span>
-						<span className="text-xs text-center ">19.99 usd</span>
-					</div>
-				</div>
-			</div>
+			<ProductsList />
 
 			<section name="contact-section" className="flex container  p-4 m-4 ">
 				<div>
