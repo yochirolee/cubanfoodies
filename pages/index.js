@@ -133,9 +133,7 @@ export default function Home() {
 					<p>Address Section</p>
 					<p>13855 W hillsborough Ave Tampa, Fl 33635</p>
 				</div>
-				<p>
-				
-				</p>
+				<p></p>
 			</section>
 
 			<footer></footer>
