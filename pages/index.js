@@ -29,8 +29,8 @@ export default function Home() {
 
 			<main className="m-2 bg-gray-50/50 h-64 rounded-xl shadow-lg  p-4 flex flex-col justify-center items-left ">
 				<h3 className="text-xl  text-left p-2 my-2 font-bold text-slate-600">
-					Is't not just Food,<br></br>
-					<span className="text-2xl text-red-400">It's an Cuban Experience</span>
+					Ist not just Food,<br></br>
+					<span className="text-2xl text-red-400">Its an Cuban Experience</span>
 				</h3>
 				<div className="flex text-sm  flex-row ">
 					<button className="bg-red-500 border  font-bold px-3 rounded-full text-slate-100">
@@ -134,8 +134,7 @@ export default function Home() {
 					<p>13855 W hillsborough Ave Tampa, Fl 33635</p>
 				</div>
 				<p>
-					hours of Operation Mon, Wed, Thur 9:00am-8:00pm Tuesday Closed Friday, Sat 9:00am- 8:30pm
-					Sunday 9:00am - 6:00pm
+				
 				</p>
 			</section>
 
