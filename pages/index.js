@@ -80,6 +80,10 @@ export default function Home() {
 
 			<ProductsList />
 
+			<section>
+				<h3>Happy Hour</h3>
+			</section>
+      
 			<section name="contact-section" className="flex flex-col items-center   p-4 m-4 ">
 				<h3 className="border-b mb-2 font-bold text-slate-600">Location and Phone</h3>
 				<div>
