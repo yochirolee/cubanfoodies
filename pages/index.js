@@ -70,23 +70,67 @@ export default function Home() {
 				</div>
 				<div className="border shrink-0 mb-2  flex  gap-1 items-center h-10 px-2  text-slate-600 rounded-lg">
 					<i className="las la-cocktail  text-xl "></i>
-					<span className="text-sm">Drinks</span>
+					<span className="text-sm">Cocktails</span>
+				</div>
+				<div className="border shrink-0 mb-2  flex  gap-1 items-center h-10 px-2  text-slate-600 rounded-lg">
+					<i className="las la-coffee  text-xl "></i>
+					<span className="text-sm">Coffees</span>
 				</div>
 			</div>
 
 			<ProductsList />
 
 			<section name="contact-section" className="flex flex-col items-center   p-4 m-4 ">
+				<h3 className="border-b font-bold text-slate-600">Location and Phone</h3>
 				<div>
 					<p className="text-slate-600 items-center flex">
 						<i className="las la-map-marker-alt text-xl mx-2  text-red-500"></i>13855 W hillsborough
 						Ave Tampa, Fl 33635
 					</p>
+					<p className="text-slate-600 items-center flex justify-center">
+						<i className="las la-phone text-xl mx-2 text-center  text-red-500"></i>(813) 475-4493
+					</p>
 				</div>
-				<div name="social-medias" className="flex p-4 gap-2 text-3xl">
-					<i className="lab la-facebook text-blue-700"></i>
-					<i className="lab la-instagram text-pink-700"></i>
-					<i className="lab la-twitter text-blue-800"></i>
+
+				<div name="hours" className="flex flex-col border  my-4  p-4 rounded-lg shadow-xl">
+					<h3 className="border-b font-bold text-slate-600 text-center mb-2">Opening Hours</h3>
+					<div className="flex items-center border bg-green rounded-lg m-2 p-1">
+						<span className=" text-center text-slate-500 flex-1   ">Mon - Wed - Thur </span>
+
+						<p className="text-green-600">
+							<i className="las la-clock text-green-600 mx-2"></i>9:00 am - 8:00 pm
+						</p>
+					</div>
+					<div className="flex items-center">
+						<span className="border text-center bg-red-500 text-white flex-1 m-2 p-1 rounded-lg ">
+							Tuesday
+						</span>
+						<p className="text-red-600">
+							<i className="las la-times-circle mx-2"></i>Sorry We Are Close
+						</p>
+					</div>
+					<div className="flex items-center border bg-green rounded-lg m-2 p-1">
+						<span className=" text-center text-slate-500 flex-1   ">Friday - Sat </span>
+						<p className="text-green-600">
+							<i className="las la-clock mx-2"></i>9:00 am - 8:30 pm
+						</p>
+					</div>
+					<div className="flex items-center border bg-green rounded-lg m-2 p-1">
+						<span className=" text-center text-slate-500 flex-1   ">Sunday </span>
+						<p className="text-green-600">
+							<i className="las la-clock mx-2"></i>9:00 am - 6:00 pm
+						</p>
+					</div>
+				</div>
+
+				<div className="flex flex-col">
+					<h3 className="border-b text-center font-bold text-slate-600">Socials</h3>
+
+					<div name="social-medias" className="flex p-4 gap-2 text-3xl">
+						<i className="lab la-facebook text-blue-700"></i>
+						<i className="lab la-instagram text-pink-700"></i>
+						<i className="lab la-twitter text-blue-800"></i>
+					</div>
 				</div>
 			</section>
 

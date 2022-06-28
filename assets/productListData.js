@@ -38,4 +38,41 @@ export const ProductsListData = [
 		description: "Eggs - Bacon - Salt",
 		cant: 0,
 	},
+	{
+		id: 5,
+		name: "Colada",
+		image: "../images/breakfast5.png",
+		price: 12.99,
+		description: "Eggs - Bacon - Salt",
+		cant: 0,
+		category:"Coffee"
+	},
+	{
+		id: 6,
+		name: "Cortadito",
+		image: "../images/breakfast5.png",
+		price: 12.99,
+		description: "Eggs - Bacon - Salt",
+		cant: 0,
+		category:"Coffee"
+	},
+	{
+		id: 7,
+		name: "Cafe con Leche",
+		image: "../images/breakfast5.png",
+		price: 12.99,
+		description: "Eggs - Bacon - Salt",
+		cant: 0,
+		category:"Coffee",
+		size:"small"
+	},
+	{
+		id: 8,
+		name: "Hot Chocolate",
+		image: "../images/breakfast5.png",
+		price: 12.99,
+		description: "Eggs - Bacon - Salt",
+		cant: 0,
+		category:"Coffee"
+	},
 ];
