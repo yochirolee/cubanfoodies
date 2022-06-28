@@ -102,7 +102,7 @@ export default function Home() {
 
 					<div className="flex flex-col   items-center">
 						<span className="mx-auto text-center  text-slate-600 text-sm mb-2">Bacon Eggs</span>
-						<span className="text-xs text-center ">19.99 usd</span>
+						<span className="text-xs text-center ">$ 19.99</span>
 					</div>
 				</div>
 
