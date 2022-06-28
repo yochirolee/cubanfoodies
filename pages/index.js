@@ -42,9 +42,9 @@ export default function Home() {
 					</button>
 				</div>
 				<div className="flex flex-row gap-3   place-content-center mt-10">
-					<span className="rounded-full h-2 w-2 ring  ring-red-200 bg-red-400"></span>
-					<span className="rounded-full h-2 w-2 border border-red-500"></span>
-					<span className="rounded-full h-2 w-2 border border-red-500"></span>
+					<span className="rounded-full h-2 w-2 ring cursor-pointer  ring-red-200 bg-red-400"></span>
+					<span className="rounded-full h-2 w-2 border cursor-pointer border-red-500"></span>
+					<span className="rounded-full h-2 w-2 border cursor-pointer border-red-500"></span>
 				</div>
 			</main>
 
