@@ -84,9 +84,9 @@ export default function Home() {
 							<span className="text-xs text-center ring ring-red-300 bg-red-500 text-white p-1 rounded-lg ">
 								19.99 usd
 							</span>
-							<div className="flex pt-1">
+							<div className="flex relative pt-1">
 								<i className="las la-shopping-cart text-2xl text-red-500 cursor-pointer"></i>
-								<span className="flex flex-row  justify-center text-xs h-4 w-4 ml-3    text-white   absolute  rounded-full  bg-red-500">
+								<span className="absolute justify-center text-xs h-4 w-4 ml-3    text-white     rounded-full  bg-red-500">
 									10
 								</span>
 							</div>
