@@ -24,7 +24,7 @@ export default function Home() {
 						</span>
 					</div>
 
-					<div className="rounded-full justify-end   h-8 w-8 bg-red-100"></div>
+					<div className="rounded-full justify-end  h-8 w-8 bg-red-100"></div>
 				</div>
 			</header>
 
