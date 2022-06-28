@@ -80,22 +80,33 @@ export default function Home() {
 
 			<ProductsList />
 
-			<section>
-				<h3>Happy Hour</h3>
-			</section>
-      
-			<section name="contact-section" className="flex flex-col items-center   p-4 m-4 ">
-				<h3 className="border-b mb-2 font-bold text-slate-600">Location and Phone</h3>
-				<div>
+			<section className="flex m-4    h-64  rounded-xl shadow-lg   ">
+				<div className="flex  flex-col happy w-1/2  bg-cover rounded-xl p-4">
+					<h3 className="text-white justify-end">3-6 pm cocktails 2 for $7</h3>
+				</div>
+
+				<div className="flex flex-col  gap-4 items-center w-1/2  justify-center ">
+					<h3 className="border-b mb-2 font-bold text-slate-600">Location and Phone</h3>
 					<p className="text-slate-600 text-center items-center flex">
 						<i className="las la-map-marker-alt text-xl mx-2  text-red-500"></i>13855 W hillsborough
-						Ave Tampa, Fl 33635
+						Ave Tampa, FL 33635
 					</p>
 					<p className="text-slate-600 items-center flex justify-center">
 						<i className="las la-phone text-xl mx-2 text-center  text-red-500"></i>(813) 475-4493
 					</p>
-				</div>
+					<div className="flex flex-col ">
+						<h3 className="border-b text-center font-bold text-slate-600">Socials</h3>
 
+						<div name="social-medias" className="flex p-4 gap-2 text-3xl">
+							<i className="lab la-facebook text-blue-700"></i>
+							<i className="lab la-instagram text-pink-700"></i>
+							<i className="lab la-twitter text-blue-800"></i>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section name="contact-section" className="flex flex-col items-center   p-4 m-4 ">
 				<div name="hours" className="flex flex-col   my-4  p-4">
 					<h3 className="border-b font-bold text-slate-600 text-center mb-2">Opening Hours</h3>
 					<div className="flex items-center  m-2 p-1">
@@ -122,16 +133,6 @@ export default function Home() {
 						<p className="text-green-600">
 							<i className="las la-clock mx-2"></i>9:00 am - 6:00 pm
 						</p>
-					</div>
-				</div>
-
-				<div className="flex flex-col">
-					<h3 className="border-b text-center font-bold text-slate-600">Socials</h3>
-
-					<div name="social-medias" className="flex p-4 gap-2 text-3xl">
-						<i className="lab la-facebook text-blue-700"></i>
-						<i className="lab la-instagram text-pink-700"></i>
-						<i className="lab la-twitter text-blue-800"></i>
 					</div>
 				</div>
 			</section>
