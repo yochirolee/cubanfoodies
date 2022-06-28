@@ -23,4 +23,19 @@ export const ProductsListData = [
 		description: "Eggs - Bacon - Salt",
 		cant: 0,
 	},
+	{
+		id: 3,
+		name: "Bacon Eggs",
+		image: "../images/breakfast4.png",
+		price: 12.99,
+		description: "Eggs - Bacon - Salt",
+		cant: 0,
+	},	{
+		id: 4,
+		name: "Bacon Eggs",
+		image: "../images/breakfast5.png",
+		price: 12.99,
+		description: "Eggs - Bacon - Salt",
+		cant: 0,
+	},
 ];
