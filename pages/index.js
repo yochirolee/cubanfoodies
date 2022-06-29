@@ -26,7 +26,10 @@ export default function Home() {
 			<ProductsList products={ProductsListData} />
 			<BookTableDialog />
 
-			<section name="socials">
+			<section
+				name="socials"
+				className=" m-2 p-4 bg-gray-50  items-center   h-32  rounded-xl shadow-lg"
+			>
 				<div className="flex flex-col justify-center mt-4">
 					<h3 className=" text-center font-bold text-slate-600">Socials</h3>
 
@@ -53,9 +56,9 @@ export default function Home() {
 
 			<section
 				name="contact-section"
-				className="flex flex-col gap-4 text-sm items-center   p-4 m-4 "
+				className="flex m-2 p-4 bg-gray-50  items-center    rounded-xl shadow-lg "
 			>
-				<div name="hours" className="flex flex-col border rounded-lg text-center p-4">
+				<div name="hours" className="flex flex-col  text-center p-4">
 					<h3 className="border-b font-bold text-slate-600 text-center mb-2">Opening Hours</h3>
 					<div className="flex items-center  m-2 p-1">
 						<span className=" text-center text-slate-500 flex-1   ">Mon - Wed - Thur </span>
