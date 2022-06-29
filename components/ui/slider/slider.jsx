@@ -8,7 +8,7 @@ export const Slider = () => {
 				Ist not just Food,<br></br>
 				<span className="text-2xl z-10 text-white">Its an Cuban Experience</span>
 			</h3>
-			<div className="flex text-sm pl-8  flex-row z-20 ">
+			<div className="flex text-sm pl-8  flex-row z-10 ">
 				<button className="bg-red-500 border  font-bold px-3 rounded-full text-slate-100">
 					Menu
 				</button>

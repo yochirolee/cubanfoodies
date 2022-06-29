@@ -30,7 +30,8 @@ export const ProductsListData = [
 		price: 12.99,
 		description: "Eggs - Bacon - Salt",
 		cant: 0,
-	},	{
+	},
+	{
 		id: 4,
 		name: "Bacon Eggs",
 		image: "../images/breakfast5.png",
@@ -45,7 +46,7 @@ export const ProductsListData = [
 		price: 12.99,
 		description: "Eggs - Bacon - Salt",
 		cant: 0,
-		category:"Coffee"
+		category: 6,
 	},
 	{
 		id: 6,
@@ -54,7 +55,7 @@ export const ProductsListData = [
 		price: 12.99,
 		description: "Eggs - Bacon - Salt",
 		cant: 0,
-		category:"Coffee"
+		category: 6,
 	},
 	{
 		id: 7,
@@ -63,8 +64,8 @@ export const ProductsListData = [
 		price: 12.99,
 		description: "Eggs - Bacon - Salt",
 		cant: 0,
-		category:"Coffee",
-		size:"small"
+		category: 6,
+		size: "small",
 	},
 	{
 		id: 8,
@@ -73,6 +74,6 @@ export const ProductsListData = [
 		price: 12.99,
 		description: "Eggs - Bacon - Salt",
 		cant: 0,
-		category:"Coffee"
+		category: "Coffee",
 	},
 ];

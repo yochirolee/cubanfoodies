@@ -1,14 +1,13 @@
 import { useState } from "react";
-import { CategoriesListData } from "../../../assets/categoriesListData";
 
-export const Categories = () => {
-	const [active, setActive] = useState(CategoriesListData[0].id);
+export const Categories = ({categories}) => {
+	const [active, setActive] = useState(categories[0].id);
 	const onActiveChange = (id) => {
 		setActive(id);
 	};
 	return (
 		<div className="flex overflow-x-scroll  m-4 text-sm gap-2 p-1  text-center items-center ">
-			{CategoriesListData.map((cat) => (
+			{categories.map((cat) => (
 				<div
 					onClick={() => onActiveChange(cat.id)}
 					key={cat.id}

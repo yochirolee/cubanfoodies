@@ -4,6 +4,8 @@ import { Categories } from "../components/ui/categories/categories";
 import { Header } from "../components/ui/header/navbar";
 import { Slider } from "../components/ui/slider/slider";
 import { ProductsListData } from "../assets/productListData";
+import { CategoriesListData } from "../assets/categoriesListData";
+import { BookTableDialog } from "../components/dialogs/bookTableDialog";
 
 export default function Home() {
 	return (
@@ -20,8 +22,9 @@ export default function Home() {
 			</Head>
 			<Header />
 			<Slider />
-			<Categories />
+			<Categories categories={CategoriesListData} />
 			<ProductsList products={ProductsListData} />
+      <BookTableDialog/>
 
 			<section className="flex m-4 w-5/6 mx-auto items-center   h-32  rounded-xl shadow-lg   ">
 				<div className=" border-r text-center p-4 ">
