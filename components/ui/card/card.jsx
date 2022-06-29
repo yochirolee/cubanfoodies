@@ -1,7 +1,7 @@
 import { Cart } from "../cart";
 
 export const Card = ({ product }) => {
-	const { name, price, image, description } = product;
+	const { name, price, image, description,category } = product;
 
 	return (
 		<div className="card  shadow-md shrink-0  rounded-lg p-4 w-1/3 lg:w-1/6">
