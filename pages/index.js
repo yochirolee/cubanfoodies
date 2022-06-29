@@ -26,10 +26,10 @@ export default function Home() {
 			<ProductsList products={ProductsListData} />
       <BookTableDialog/>
 
-			<section className="flex m-4 bg-gray-50  items-center   h-32  rounded-xl shadow-lg   ">
+			<section className="flex m-4 p-4 bg-gray-50  items-center   h-32  rounded-xl shadow-lg   ">
 				<div className=" border-r text-center p-4 ">
 					<h3 className=" mb-2  font-bold text-slate-600">Location and Phone</h3>
-					<p className="text-slate-600 text-sm text-center items-center flex">
+					<p className="text-slate-600 text-sm text-slate-500 text-center items-center flex">
 						<i className="las la-map-marker-alt text-xl mx-2  text-red-500"></i>13855 W hillsborough
 						Ave Tampa, Fl 33635
 					</p>
