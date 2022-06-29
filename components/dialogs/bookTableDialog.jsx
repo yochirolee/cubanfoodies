@@ -1,5 +1,5 @@
 export const BookTableDialog = () => {
-	
+	if (true) return <></>;
 
 	return (
 		<div className="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
