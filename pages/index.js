@@ -41,14 +41,14 @@ export default function Home() {
 				</div>
 			</section>
 
-			<section className="flex m-2 p-4 bg-gray-50  items-center   h-32  rounded-xl shadow-lg   ">
+			<section className="flex m-2 p-4 bg-gray-700  items-center   h-32  rounded-xl shadow-lg   ">
 				<div className=" text-center p-4 ">
-					<h3 className=" mb-2  font-bold text-slate-600">Location and Phone</h3>
-					<p className=" text-sm text-slate-500 text-center items-center flex">
+					<h3 className=" mb-2  font-bold text-slate-200">Location and Phone</h3>
+					<p className=" text-sm text-slate-300 text-center items-center flex">
 						<i className="las la-map-marker-alt text-xl mx-2  text-red-500"></i>13855 W hillsborough
 						Ave Tampa, Fl 33635
 					</p>
-					<p className="text-slate-600 text-sm items-center flex justify-center">
+					<p className="text-slate-200 text-sm items-center flex justify-center">
 						<i className="las la-phone text-xl mx-2 text-center  text-red-500"></i>(813) 475-4493
 					</p>
 				</div>
@@ -58,10 +58,10 @@ export default function Home() {
 				name="contact-section"
 				className="flex m-2 p-4 bg-gray-50  items-center    rounded-xl shadow-lg "
 			>
-				<div name="hours" className="flex flex-col  text-center p-4">
-					<h3 className="border-b font-bold text-slate-600 text-center mb-2">Opening Hours</h3>
+				<div name="hours" className="flex flex-col text-sm text-center p-4">
+					<h3 className="font-bold text-slate-600 text-center mb-2">Opening Hours</h3>
 					<div className="flex items-center  m-2 p-1">
-						<span className=" text-center text-slate-500 flex-1   ">Mon - Wed - Thur </span>
+						<span className=" text-center  text-slate-500 flex-1   ">Mon - Wed - Thur </span>
 
 						<p className="text-green-600">
 							<i className="las la-clock text-green-600 mx-2"></i>9:00 am - 8:00 pm
