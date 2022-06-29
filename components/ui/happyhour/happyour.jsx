@@ -1,15 +1,20 @@
 export const HappyHour = () => {
 	return (
-		<section className="flex m-2 p-4 bg-gray-700 place-content-center   items-center    h-48  rounded-t-xl  ">
-			<div className=" text-center p-4 ">
-				<h3 className=" mb-2  font-bold text-slate-200">Happy Hour</h3>
-				<p className=" text-sm text-slate-300 text-center items-center flex">
-					<i className="las la-map-marker-alt text-xl mx-2  text-red-500"></i>13855 W hillsborough
-					Ave Tampa, Fl 33635
-				</p>
-				<p className="text-slate-200 text-sm items-center flex justify-center">
-					<i className="las la-phone text-xl mx-2 text-center  text-red-500"></i>(813) 475-4493
-				</p>
+		<section className="text-slate-200 text-center m-2 p-4 bg-gray-700 place-content-center   items-center    rounded-t-xl  ">
+			<p className="text-slate-200">Special Offers</p>
+			<div className="flex gap-4 justify-evenly  text-center  p-4 ">
+				<div className="flex items-center gap-3 rounded-full ">
+					<p className="text-red-500 font-bold">Happy Hours</p>
+						<p className="border p-2 items-center text-center flex rounded-md shadow-lg text-red-500 border-red-500 ">
+					
+						<span className="text-2xl items-center p-2">2</span> 
+					</p>
+                    
+                    <i className="las la-cocktail text-6xl rotate-45 animate-pulse"></i>
+				<p className="text-xl">x</p>
+                <p className="text-3xl">$7</p>
+					<p className="text-red-500">3:00pm to 7:00pm</p>
+				</div>
 			</div>
 		</section>
 	);
