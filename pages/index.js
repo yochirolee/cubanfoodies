@@ -41,7 +41,7 @@ export default function Home() {
 
 			<section
 				name="socials"
-				className=" m-2 p-4 bg-gray-50  items-center   h-32  rounded-xl shadow-lg"
+				className=" m-2  p-4 bg-gray-50  items-center   h-32  rounded-xl shadow-lg"
 			>
 				<div className="flex flex-col justify-center mt-4">
 					<h3 className=" text-center font-bold text-slate-600">Socials</h3>
@@ -54,7 +54,7 @@ export default function Home() {
 				</div>
 			</section>
 
-			<section className="flex m-2 p-4 bg-gray-50  items-center   h-32  rounded-xl shadow-lg   ">
+			<section className="flex m-2 p-4  items-center   h-32     ">
 				<div className=" text-center p-4 ">
 					<h3 className=" mb-2  font-bold text-slate-500">Location and Phone</h3>
 					<p className=" text-sm text-slate-500 text-center items-center flex">
@@ -69,7 +69,7 @@ export default function Home() {
 
 			<section
 				name="contact-section"
-				className="flex m-2 p-4 bg-gray-50  items-center    rounded-xl shadow-lg "
+				className="flex m-2 p-4   items-center    "
 			>
 				<div name="hours" className="flex flex-col text-sm text-center p-4">
 					<h3 className="font-bold text-slate-600 text-center mb-2">Opening Hours</h3>
