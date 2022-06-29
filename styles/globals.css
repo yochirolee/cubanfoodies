@@ -22,8 +22,8 @@ a {
 
 .bg-img {
 	background-image: url(../public/images/background1.jpeg);
-	background-repeat: no-repeat;
-	object-fit: cover;
+	
+	object-fit: fill;
 }
 
 .happy {

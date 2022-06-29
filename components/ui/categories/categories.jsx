@@ -6,7 +6,7 @@ export const Categories = ({categories}) => {
 		setActive(id);
 	};
 	return (
-		<div className="flex overflow-x-scroll  m-4 text-sm gap-2 p-1  text-center items-center ">
+		<div className="flex overflow-x-scroll   m-4 text-sm gap-2 p-1  text-center md:place-content-center ">
 			{categories.map((cat) => (
 				<div
 					onClick={() => onActiveChange(cat.id)}

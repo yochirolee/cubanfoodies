@@ -1,6 +1,6 @@
 export const HappyHour = () => {
 	return (
-		<section className="flex m-2 p-4 bg-gray-700   items-center   h-48  rounded-t-xl  ">
+		<section className="flex m-2 p-4 bg-gray-700 place-content-center   items-center    h-48  rounded-t-xl  ">
 			<div className=" text-center p-4 ">
 				<h3 className=" mb-2  font-bold text-slate-200">Happy Hour</h3>
 				<p className=" text-sm text-slate-300 text-center items-center flex">
