@@ -6,6 +6,7 @@ import { Slider } from "../components/ui/slider/slider";
 import { ProductsListData } from "../assets/productListData";
 import { CategoriesListData } from "../assets/categoriesListData";
 import { BookTableDialog } from "../components/dialogs/bookTableDialog";
+import { HappyHour } from "../components/ui/happyhour/happyour";
 
 export default function Home() {
 	return (
@@ -25,23 +26,11 @@ export default function Home() {
 			<Categories categories={CategoriesListData} />
 			<ProductsList products={ProductsListData} />
 			<BookTableDialog />
-
-      <section className="flex m-2 p-4 bg-gray-700   items-center   h-48  rounded-xl shadow-lg   ">
-				<div className=" text-center p-4 ">
-					<h3 className=" mb-2  font-bold text-slate-200">Happy Hour</h3>
-					<p className=" text-sm text-slate-300 text-center items-center flex">
-						<i className="las la-map-marker-alt text-xl mx-2  text-red-500"></i>13855 W hillsborough
-						Ave Tampa, Fl 33635
-					</p>
-					<p className="text-slate-200 text-sm items-center flex justify-center">
-						<i className="las la-phone text-xl mx-2 text-center  text-red-500"></i>(813) 475-4493
-					</p>
-				</div>
-			</section>
+			<HappyHour />
 
 			<section
 				name="socials"
-				className=" m-2  p-4 bg-gray-50  items-center   h-32  rounded-xl shadow-lg"
+				className=" m-2  p-4 bg-gray-50  items-center   h-32  rounded-b-xl shadow-lg"
 			>
 				<div className="flex flex-col justify-center mt-4">
 					<h3 className=" text-center font-bold text-slate-600">Socials</h3>
@@ -67,10 +56,7 @@ export default function Home() {
 				</div>
 			</section>
 
-			<section
-				name="contact-section"
-				className="flex m-2 p-4   items-center    "
-			>
+			<section name="contact-section" className="flex m-2 p-4   items-center    ">
 				<div name="hours" className="flex flex-col text-sm text-center p-4">
 					<h3 className="font-bold text-slate-600 text-center mb-2">Opening Hours</h3>
 					<div className="flex items-center  m-2 p-1">
@@ -102,19 +88,18 @@ export default function Home() {
 			</section>
 
 			<footer>
-      <section className="flex  bg-gray-700   items-center   h-48     ">
-				<div className=" text-center p-4 ">
-					<h3 className=" mb-2  font-bold text-slate-200">Happy Hour</h3>
-					<p className=" text-sm text-slate-300 text-center items-center flex">
-						<i className="las la-map-marker-alt text-xl mx-2  text-red-500"></i>13855 W hillsborough
-						Ave Tampa, Fl 33635
-					</p>
-					<p className="text-slate-200 text-sm items-center flex justify-center">
-						<i className="las la-phone text-xl mx-2 text-center  text-red-500"></i>(813) 475-4493
-					</p>
-				</div>
-			</section>
-      </footer>
+				<section className="flex  bg-gray-700  place-content-center     ">
+					<div className=" text-center p-4 ">
+						<h3 className=" mb-2   text-slate-200">CubanFoodies 2022 - All Rights Reserved</h3>
+						<p className=" text-sm text-slate-300 text-center items-center flex">
+							<i className="las la-laptop-code text-xl mx-2 "></i>Desing and Development by Yosho
+						</p>
+						<p className="text-slate-200 text-sm items-center flex justify-center">
+							<i className="las la-envelope-open  mx-2 text-center  "></i>yleecruz@gmail.com
+						</p>
+					</div>
+				</section>
+			</footer>
 		</div>
 	);
 }
